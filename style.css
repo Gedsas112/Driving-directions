@@ -1,0 +1,94 @@
+body {
+  background: rgb(238, 231, 231);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+h3 {
+  text-align: center;
+}
+.fa-bars {
+  margin-left: 15px;
+  cursor: pointer;
+}
+.driving-direction {
+  display: flex;
+  align-items: center;
+}
+.driving-direction-word {
+  margin-left: 250px;
+  font-size: 15px;
+}
+/* .driving-direction {
+  display: flex;
+  justify-content: space-between;
+} */
+.directions-container {
+  width: 700px;
+  height: 250px;
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: rgba(100, 100, 111, 0.6) 0px 7px 5px 0px;
+  margin-top: 200px;
+}
+.fa-bars {
+  margin-left: 10px;
+}
+.starting-point-input {
+  margin-left: 5px;
+  padding: 5px;
+}
+.fa-map-pin {
+  margin-left: 10px;
+}
+.destination {
+  margin-top: 5px;
+  margin-bottom: -15px;
+}
+.destination-input {
+  margin-left: 5px;
+  padding: 5px;
+}
+.fa-location-dot {
+  margin-left: 10px;
+}
+.fa-globe {
+  margin-left: 96%;
+  cursor: pointer;
+}
+.your-location {
+  display: flex;
+  align-items: center;
+  margin-bottom: -15px;
+  margin-left: 10px;
+  cursor: pointer;
+}
+.your-location:hover {
+  background-color: rgb(231, 227, 227);
+}
+.your-location-word {
+  margin-left: 5px;
+}
+.sign-in {
+  display: flex;
+  align-items: center;
+  margin-left: 10px;
+  cursor: pointer;
+}
+.sign-in:hover {
+  background-color: rgb(231, 227, 227);
+}
+.sign-in-word {
+  margin-left: 5px;
+  color: rgb(84, 121, 177);
+}
+/* .column-container {
+  background-color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-flow: wrap;
+} */
+input {
+  width: 90%;
+}

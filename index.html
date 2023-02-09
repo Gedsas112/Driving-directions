@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Driving directions</title>
+    <link rel="stylesheet" href="style.css" />
+    <script
+      src="https://kit.fontawesome.com/584f95a0a8.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <div class="directions-container">
+      <div class="driving-direction">
+        <i class="fas fa-bars"></i>
+        <h4 class="driving-direction-word">Driving direction</h4>
+      </div>
+
+      <div class="column-container">
+        <div class="box1">
+          <form>
+            <div class="starting-point">
+              <i class="fa-solid fa-map-pin"></i>
+              <label for=""></label>
+              <input
+                class="starting-point-input"
+                type="text"
+                list="startingLocations"
+                placeholder="Choose starting point"
+                id="starting-point"
+              />
+              <datalist id="startingLocations">
+                <option value="Vilnius"></option>
+                <option value="Kaunas"></option>
+                <option value="Klapieda"></option>
+                <option value="New York"></option>
+              </datalist>
+            </div>
+            <i class="fas fa-globe" id="fa-globe"></i>
+            <div class="destination">
+              <i class="fas fa-location-dot"></i>
+              <label for=""></label>
+              <input
+                class="destination-input"
+                type="text"
+                list="destinationLocations"
+                placeholder="Choose destination"
+                id="destination"
+              />
+              <datalist id="destinationLocations">
+                <option value="Manhaten"></option>
+                <option value="Brooklyn"></option>
+                <option value="Klapieda"></option>
+                <option value="New York"></option>
+              </datalist>
+            </div>
+          </form>
+        </div>
+        <div class="box2">
+          <i class="fa-solid fa-arrow-up-arrow-down"></i>
+        </div>
+      </div>
+
+      <div class="your-location">
+        <i class="fa-solid fa-location-crosshairs"></i>
+        <h4 class="your-location-word">Your location</h4>
+      </div>
+      <div class="sign-in">
+        <i class="fa-regular fa-star"></i>
+        <h4 class="sign-in-word">Sign in to see your saved places</h4>
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
